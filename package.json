@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "gitbook build",
-    "serve": "gitbook serve"
+    "serve": "gitbook serve",
+    "publish": "./publish.sh"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2"

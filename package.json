@@ -4,12 +4,6 @@
     "serve": "gitbook serve"
   },
   "dependencies": {
-    "gitbook-cli": "^2.3.2",
-    "husky": "^3.0.9"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
+    "gitbook-cli": "^2.3.2"
   }
 }

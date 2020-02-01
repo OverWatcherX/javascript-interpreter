@@ -1,6 +1,6 @@
 const jison = require("jison");
 const fs = require('fs').promises;
-const path = reuqire('path');
+const path = require('path');
 
 const Parser = jison.Parser;
 

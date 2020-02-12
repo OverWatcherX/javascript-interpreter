@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  padding: 0 40px;
+  height: 64px;
+  box-shadow: 0 2px 8px #f0f1f2;
+  display: flex;
+  user-select: none;
+}
+
+.title {
+  color: #0d1a26;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.title_logo {
+  width: 32px;
+  height: 32px;
+  margin-left: -6px;
+}
+
+.title_text {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.icon_list {
+  height: 64px;
+  margin-left: auto;
+  margin-right: -20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+  padding: 20px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #EFEFEF;
+}

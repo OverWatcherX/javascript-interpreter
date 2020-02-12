@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './style.module.css'
-import logo from '../logo.png'
 
 import githubIcon from './icons/github.svg'
 import zhihuIcon from './icons/zhihu.svg'
+import { book } from '../../../book'
 
 export function Header() {
   const icons = [
@@ -12,8 +12,8 @@ export function Header() {
   ]
   return <div className={style.header}>
     <div className={style.title}>
-      <img className={style.title_logo} alt="logo" src={logo} />
-      <div className={style.title_text}>不懂编译原理也能造 JavaScript 解释器</div>
+      <img className={style.title_logo} alt="logo" src={book.logo} />
+      <div className={style.title_text}>{book.name}</div>
     </div>
 
     <div className={style.icon_list}>

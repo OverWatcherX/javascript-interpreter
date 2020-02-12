@@ -1,44 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 不懂编译也能造JavaScript解释器
+—— 手把手教你造 JavaScript 解释器
 
-## Available Scripts
+> 专栏链接：[不懂编译也能造JavaScript解释器](https://zhuanlan.zhihu.com/p/99092923)
 
-In the project directory, you can run:
+---
+# 0. 目录 & 前言
 
-### `yarn start`
+## 目录：
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. 目录 & 前言
+2. // 未完待续……
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 前言：
 
-### `yarn test`
+### 这个专栏是什么？
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+如这个专栏的标题所示，这是一个教前端造 JavaScript 解释器的一本「电子小书」，旨在从「程序语言」这个宏观的角度来看待 JavaScript 这门语言是怎么设计、构造以及实现的。
 
-### `yarn build`
+有这个想法是因为前端虽有大量编程语言相关的应用，从各类编译到 JavaScript 的编程语言、各类模板语言、 Babel 和 Uglify 等转换器甚至还有 WebAssembly 这样的「底层语言」，但广大程序员小伙伴在「编程语言」层面上的基础还是有欠缺的。并且本身这些学科都晦涩难懂，而且大部分教材也是典型的「不讲人话」，所以我希望能在这个领域能帮大家做一个不算深入，但是比较全面介绍和实践。
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+同时也是为了填我之前几篇文章开的坑，包括太监文 「前端要以正确的姿势学习编译原理（上篇）」里面承诺的下篇，以及在 「微信小程序也要强行热更代码，鹅厂不服你来肛我呀」承诺 IR 以及协程都会在这本小书里面补上。
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+最后，如我上一段说的，这是一本「电子小书」，而不是一个系列教程或者博客，所以我会用「一年时间」以「一本书」的质量标准来要求我写的内容，也是对自己那么多年瞎折腾的一个总结和交代。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### 这本书会写什么？
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+我的目标是「科普编程语言」，给只有前端基础的小伙伴讲懂基本的编程语言和编译原理知识；
+我的方法是「动手实践」，用 JavaScript 实现一个完整的 JavaScript 的解释器；
+我的原则是「说人话」，不需要 JavaScript 这门语言以外的基础；
+我的理念是「即时反馈」，从一个最小的原型开始，保证每学习一步都能够看得到效果；
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 我希望读者能反馈什么？
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+毕竟一个人要搞一个那么大的阵仗，所以也是需要大家给我反馈，一起帮忙改进，这也是互联网最大的优势，所以我希望大家能够给我类似如下的反馈：
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+我发现文章里面有错误
+我这里没有看懂
+我这里看懂了但是不会用
+我觉得我有更好的例子和更好的实现方式
 
-## Learn More
+### 启程出发
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+最后，让我们一起整装待发，一起体验一回我们程序员的浪漫~

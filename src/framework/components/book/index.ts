@@ -14,6 +14,8 @@ export interface Chapter extends Document {
 
 export interface Book {
   name: string,
+  logo: string,
+  icon: string,
   description: Document,
   chapters: Chapter[]
 }

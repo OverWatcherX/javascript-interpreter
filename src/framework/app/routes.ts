@@ -14,11 +14,11 @@ export interface Route {
 
 export const routes: Route[] = book.chapters.map((chapter, i) => ({
   title: chapter.title,
-  path: `/chapter/${i}`,
+  path: `/chapter/${i + 1}`,
   document: chapter.document,
   children: chapter.sections.map((section, j) => ({
     title: section.title,
-    path: `/chapter/${i}/section/${j + 1}`,
+    path: `/chapter/${i + 1}/section/${j + 1}`,
     document: section.document
   }))
 }))

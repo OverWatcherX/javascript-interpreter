@@ -1,9 +1,9 @@
 import React from 'react'
 import { Book } from "../framework/components/book";
 import { MarkdownDocument } from "../framework/components/markdown-document";
-import { chapter0 } from './chapter0';
-import logo from './logo.png';
-import icon from './favicon.ico';
+import { chapter1 } from './chapter1';
+import logo from './images/logo.png';
+import icon from './images/favicon.ico';
 
 const document = () => <MarkdownDocument>
   {/* jsx-markdown */}
@@ -50,5 +50,5 @@ export const book: Book = {
     title: '前言',
     document
   },
-  chapters: [chapter0],
+  chapters: [chapter1],
 }

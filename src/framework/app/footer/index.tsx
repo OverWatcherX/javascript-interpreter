@@ -4,6 +4,6 @@ import { book } from '../../../book'
 
 export function Footer() {
   return <div className={style.footer}>
-    {book.name}<a href="https://github.com/bramblex/">@bramblex</a>
+    《{book.name}》<a href="https://github.com/bramblex/">@bramblex</a>
   </div>
 }

@@ -32,7 +32,7 @@
   "scripts": {
     "start": "PORT=3062 react-app-rewired start",
     "build": "PUBLIC_URL='/javascript-interpreter/' react-app-rewired build && rm -rf docs && mv build docs",
-    "publish": "npm run build && git add -A && git commit && git push"
+    "publish": "npm run build && git add -A && git commit -a -m 'publish' && git push"
   },
   "eslintConfig": {
     "extends": "react-app"

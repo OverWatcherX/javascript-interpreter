@@ -5,7 +5,7 @@ import { MarkdownDocument } from "../../../framework/components/markdown-documen
 
 const document = () => <MarkdownDocument>
   {/* jsx-markdown */}
-  # 第4节、【实例】造一个中文编程语言
+  # 第4节、【实例】中文编程语言
   [[TOC]]
 </MarkdownDocument>
 

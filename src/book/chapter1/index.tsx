@@ -5,6 +5,9 @@ import { section1 } from './section1';
 import image1 from './images/1.jpg';
 import image2 from './images/2.jpg';
 import image3 from './images/3.jpg';
+import { section2 } from './section2';
+import { section3 } from './section3';
+import { section4 } from './section4';
 
 const document = () => <MarkdownDocument>
   {/* jsx-markdown */}
@@ -72,6 +75,9 @@ export const chapter1: Chapter = {
   title: '第1章、前置知识',
   document,
   sections: [
-    section1
+    section1,
+    section2,
+    section3,
+    section4,
   ]
 }

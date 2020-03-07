@@ -1,16 +1,18 @@
+
 import React from 'react'
 import { Section } from "../../../framework/components/book";
 import { MarkdownDocument } from "../../../framework/components/markdown-document";
 
-const title = '第1节、Jison 的安装'
-
 const document = () => <MarkdownDocument>
   {/* jsx-markdown */}
-  # {title}
+  # 第2节、词法分析
   [[TOC]]
+
+  ## 从一个最简单的例子讲起
 </MarkdownDocument>
 
-export const section1: Section = {
-  title,
+
+export const section2: Section = {
+  title: '第2节、词法分析',
   document,
 }

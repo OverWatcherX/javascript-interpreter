@@ -1,0 +1,23 @@
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title > img {
+  height: 32px;
+} 
+
+.content {
+  display: flex;
+}
+
+.stage-container {
+  border: 1px solid #EFEFEF;
+  flex: 0 0 auto;
+}
+
+.code > textarea {
+  width: 48%;
+  height: 500px;
+}

@@ -1,7 +1,8 @@
-node_modules/**
-.vscode/**
-.trash/**
-package-lock.json
+node_modules
+.vscode
+.trash
+.cache
+dist
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
